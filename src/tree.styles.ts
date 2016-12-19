@@ -55,14 +55,16 @@ export const styles: string[] = [`
     cursor: pointer;
   }
   .tree .folding.node-collapsed:before {
-    content: '\\25B6';
+    font-family:FontAwesome;
+    content: '\\f07b';
     color: #757575;
   }
   .tree .folding.node-expanded {
     cursor: pointer;
   }
   .tree .folding.node-expanded:before {
-    content: '\\25BC';
+    font-family:FontAwesome;
+    content: '\\f07c';
     color: #757575;
   }
   .tree .folding.node-leaf {
@@ -71,7 +73,8 @@ export const styles: string[] = [`
     font-size: 0.89em;
   }
   .tree .folding.node-leaf:before {
-    content: '\\25CF';
+    font-family:FontAwesome;
+    content: '\\f20e';
     color: #757575;
   }
 `];
